@@ -1,0 +1,5 @@
+#! /bin/sh
+PYTHON=/home/odoo/prod_odoo/ubrimaq/env/bin/python3
+ODOO=/home/odoo/prod_odoo/ubrimaq/src/odoo/odoo-bin
+CONF=/home/odoo/prod_odoo/ubrimaq/prod_odoo.cfg
+${PYTHON} ${ODOO} -c ${CONF} "$@"
