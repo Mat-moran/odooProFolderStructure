@@ -28,6 +28,7 @@ NOTA: a partir de aquí se recomienda desinstalar gcc para que en caso de ataque
  "sudo -u postgres createuser -s $USER"
 
 - list_db = True (para activar el database manager)
+- Generar clave de admin con pwgen (por ejemplo) `pwgen -s 22`
 
 
 
