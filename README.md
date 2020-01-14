@@ -10,22 +10,24 @@ Estructura de carpetas en proyecto de odoo
 
 # pasos que se han seguido para esta instalación en particular
 
---> Descargar la estructura de carpetas para un odoo de producción: https://github.com/Mat-moran/odooProFolderStructure
+- Descargar la estructura de carpetas para un odoo de producción: https://github.com/Mat-moran/odooProFolderStructure
 
---> Clonar la versión más reciente de odoo community de: https://github.com/odoo/odoo.git
+- Clonar la versión más reciente de odoo community de: https://github.com/odoo/odoo.git
 
---> Create virtualenv and install the dependencies:
- virtualenv -p python3 ~/{ruta_carpeta_proyecto}/env/env-odoo-13.0$ source ~/{ruta_carpeta_proyecto}/env/env-odoo-13.0/bin/activate$ pip3 install -r src/odoo/requirements.txt
+- Create virtualenv and install the dependencies:
+ `virtualenv -p python3 ~/{ruta_carpeta_proyecto}/env/env-odoo-13.0` 
+ `source ~/{ruta_carpeta_proyecto}/env/env-odoo-13.0/bin/activate` 
+ `pip3 install -r src/odoo/requirements.txt`
 
---> Correccion del archivo "/bin/start-odoo" con los datos actualizados al proyecto actual.
+- Correccion del archivo "/bin/start-odoo" con los datos actualizados al proyecto actual.
 
 NOTA: a partir de aquí se recomienda desinstalar gcc para que en caso de ataque no se pueda compilar código. (En esta instalación no lo he realizado de momento, {fecha_instalación})
 
 
---> Como no estaba creado el rol con el nombre del usuario ubrimaq
+- Como no estaba creado el rol con el nombre del usuario ubrimaq
  "sudo -u postgres createuser -s $USER"
 
---> list_db = True (para activar el database manager)
+- list_db = True (para activar el database manager)
 
 
 
