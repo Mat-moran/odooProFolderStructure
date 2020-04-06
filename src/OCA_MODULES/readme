@@ -1,0 +1,3 @@
+Symbolic link of the OCA modules.
+
+This is done to avoid put more paths in the conf.cfg file.
